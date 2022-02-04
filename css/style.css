@@ -1,0 +1,248 @@
+
+
+header{
+    background-color: #F1EDEC;
+    height: 100px;
+    padding: 15px;
+    box-shadow: 0 0 10px 0 #cfcdc8;
+     
+      
+}
+
+nav li{
+    display: inline;
+    text-align: center;
+    float: left;
+    font-size: 20px;
+    margin: 40px 20px 40px 100px;
+    font-family: 'Raleway', sans-serif;
+    
+
+}
+
+
+
+.socialmedia li{
+    display: inline-block;
+    border-radius: 100%;
+    margin: 30px 2px;
+    float: left;
+   
+}
+
+nav li a{
+    color: black;
+    text-decoration: none;
+    
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.active a{
+    text-decoration: none;
+    font-weight: bolder;
+    
+
+}
+
+.floatLeft{
+    float:left;
+    margin-left:50px;
+    
+}
+
+
+body{
+    background-color: white;
+}
+main{
+    margin: 100px 50px 50px 50px;
+    border: 2px solid grey;
+    
+      
+}
+
+h1{
+    font-family:'Raleway', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+
+}
+
+h2{
+    font-family:'Raleway', sans-serif;
+    font-size: 20px;
+}
+h3{
+    margin-top: 20px;
+}
+
+
+p{
+    font-family: 'Raleway', sans-serif;
+}
+
+.floatRight{
+    float: right;
+    margin: 10px;
+    border: #D3D3D3 solid 7px;
+    padding: 2px;
+    width:300px;
+    border-radius: 5%;
+}
+
+.floatRight:hover{
+    box-shadow: 10px 10px grey;
+}
+
+.biography{
+    background-color: aliceblue;
+    line-height: 40px;
+    padding: 20px;
+    margin-right: 400px;
+    
+}
+
+.Hithere{
+    text-align: center;
+     
+}
+
+.Recipecontent img:nth-child(even){
+    border: solid 5px black;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 5px;}
+
+
+
+.Recipecontent img:nth-child(odd){
+    border: solid 5px red;
+    margin: 10px;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+
+.Recipecontent img:hover {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    animation-name: example;
+    animation-duration: 0.25s;
+    border-left: 8px solid #D3D3D3;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+
+
+.JoeMuerSeafood{
+    margin-top: 100px;
+}
+
+.JoeMuerSeafood img{
+    margin: 20px;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 5% ;
+    box-shadow: 20px 20px rgba(0,0,0,.15);
+    transition: all .4s ease;
+    padding: 2px;
+
+}
+
+.JoeMuerSeafood img:hover {
+    border-radius: 0% 0% 50% 50% / 0% 0% 5% 5% ;
+    box-shadow: 10px 10px rgba(0,0,0,.25);
+  }
+
+.CommonWealth{
+    margin-top: 100px;
+}
+
+.CommonWealth img{
+    margin: 20px;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 5% ;
+    box-shadow: 20px 20px #ffe4e1;
+    transition: all .4s ease;
+    padding: 2px;
+
+}
+  
+.CommonWealth img:hover {
+    border-radius: 0% 0% 50% 50% / 0% 0% 5% 5% ;
+    box-shadow: 10px 10px #fadadd;
+}
+
+
+.KimchiBox{
+    margin-top: 100px;
+}
+
+.KimchiBox img{
+    margin: 20px;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 5% ;
+    box-shadow: 20px 20px rgba(0,0,0,.15);
+    transition: all .4s ease;
+    padding: 2px;
+}
+
+.KimchiBox img:hover{
+    border-radius: 0% 0% 50% 50% / 0% 0% 5% 5% ;
+    box-shadow: 10px 10px rgba(0,0,0,.25);
+}
+
+.ForSale img{
+    margin: 20px;
+    border: black solid 2px;
+    border-radius: 0%;
+    padding: 5px;
+    background-color: #bc8f8f;
+ 
+}
+
+.ForSale img:hover{
+    box-shadow: 10px 10px brown;
+}
+
+
+.CustomerScreenshots img:nth-child(odd){
+    margin: 20px;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 5% ;
+    box-shadow: 20px 20px rgba(0,0,0,.15);
+    transition: all .4s ease;
+    padding: 2px;
+}
+
+.CustomerScreenshots img:nth-child(even){
+    margin: 20px;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 5% ;
+    box-shadow: 20px 20px #ffe4e1;
+    transition: all .4s ease;
+    padding: 2px;
+
+}
+.CustomerScreenshots img:nth-child(odd):hover{
+    border-radius: 0% 0% 50% 50% / 0% 0% 5% 5% ;
+    box-shadow: 10px 10px rgba(0,0,0,.25);
+}
+
+.CustomerScreenshots img:nth-child(even):hover{
+    border-radius: 0% 0% 50% 50% / 0% 0% 5% 5% ;
+    box-shadow: 10px 10px #fadadd;
+}
+
+
+
+footer{
+    border: 2px solid grey;
+	margin: 10px 50px;
+}
